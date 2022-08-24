@@ -148,93 +148,9 @@ body{
 
 
 
-   @media screen
-   and (min-device-width : 375px) 
-   and (max-device-width : 667px) 
-   and (min-device-width : 375px) 
-   and (max-device-width : 667px) 
-   and (orientation : landscape) 
-   and (min-device-width : 375px) 
-   and (max-device-width : 667px) 
-   and (orientation : portrait) 
-   and (min-device-width : 414px) 
-   and (max-device-width : 736px)
-   and (min-device-width : 414px) 
-   and (max-device-width : 736px) 
-   and (orientation : landscape) 
-   and (min-device-width : 414px) 
-   and (max-device-width : 736px) 
-   and (orientation : portrait)
-   and (min-device-width : 320px) 
-   and (max-device-width : 568px) {
-     
-   }
-
-   /* iPhone 5 & 5S in landscape */
-   @media only screen 
-   and (min-device-width : 320px) 
-   and (max-device-width : 568px) 
-   and (orientation : landscape) 
-   and (min-device-width : 320px) 
-   and (max-device-width : 568px) 
-   and (orientation : portrait)
-   and (min-device-width : 320px) 
-   and (max-device-width : 480px)
-   and (min-device-width : 320px) 
-   and (max-device-width : 480px) 
-   and (orientation : landscape) 
-   and (min-device-width : 320px) 
-   and (max-device-width : 480px) 
-   and (orientation : portrait) 
-   and (min-device-width : 768px) 
-   and (max-device-width : 1024px) 
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 2)
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 2) 
-     and (orientation: portrait)
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 2) 
-     and (orientation: landscape) 
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait) 
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) 
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3)
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait) 
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) 
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3)
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait)
-     and (device-width: 360px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) 
-      and (device-width:360px) and (device-height:640px)
-       and (orientation: portrait){
-
+   @media screen and (min-width:320px) and (max-width:640px) {
+    /* for screens that are at least 320 pixels wide but less than or equal to 640 pixels wide */
+  
     section{
         background-image: url(./bg-pattern-top-desktop.svg);
         max-height: 100%;
@@ -322,4 +238,4 @@ img{
     width: 100%;
     margin: 0px;
     }
-  }
+}
