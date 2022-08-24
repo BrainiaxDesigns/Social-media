@@ -147,7 +147,7 @@ body{
    }
 
 
-   @media screen and (max-width:320px) {
+   @media screen and (min-width:320px) {
     section{
         background-image: url(./bg-pattern-top-desktop.svg);
         max-height: 100%;
