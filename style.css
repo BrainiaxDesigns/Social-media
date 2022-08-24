@@ -147,53 +147,24 @@ body{
    }
 
 
-   @media screen and @media only screen 
-   and (min-device-width : 375px) 
-   and (max-device-width : 667px) {
-     
-   }
 
-   /* iPhone 6 in landscape */
-   @media only screen 
+   @media screen
    and (min-device-width : 375px) 
    and (max-device-width : 667px) 
-   and (orientation : landscape) {
-     
-   }
-
-   /* iPhone 6 in portrait */
-   @media only screen 
    and (min-device-width : 375px) 
    and (max-device-width : 667px) 
-   and (orientation : portrait) {
-     
-   }
-
-   /* iPhone 6 Plus in portrait & landscape */
-   @media only screen 
+   and (orientation : landscape) 
+   and (min-device-width : 375px) 
+   and (max-device-width : 667px) 
+   and (orientation : portrait) 
    and (min-device-width : 414px) 
-   and (max-device-width : 736px) {
-     
-   }
-
-   /* iPhone 6 Plus in landscape */
-   @media only screen 
+   and (max-device-width : 736px)
    and (min-device-width : 414px) 
    and (max-device-width : 736px) 
-   and (orientation : landscape) {
-     
-   }
-
-   /* iPhone 6 Plus in portrait */
-   @media only screen 
+   and (orientation : landscape) 
    and (min-device-width : 414px) 
    and (max-device-width : 736px) 
-   and (orientation : portrait) {
-     
-   }
-
-   /* iPhone 5 & 5S in portrait & landscape */
-   @media only screen 
+   and (orientation : portrait)
    and (min-device-width : 320px) 
    and (max-device-width : 568px) {
      
@@ -203,170 +174,67 @@ body{
    @media only screen 
    and (min-device-width : 320px) 
    and (max-device-width : 568px) 
-   and (orientation : landscape) {
-     
-   }
-
-   /* iPhone 5 & 5S in portrait */
-   @media only screen 
+   and (orientation : landscape) 
    and (min-device-width : 320px) 
    and (max-device-width : 568px) 
-   and (orientation : portrait) {
-     
-   }
-
-   /* 
-     iPhone 2G, 3G, 4, 4S Media Queries
-     It's noteworthy that these media queries are also the same for iPod Touch generations 1-4.
-   */
-
-   /* iPhone 2G-4S in portrait & landscape */
-   @media only screen 
+   and (orientation : portrait)
    and (min-device-width : 320px) 
-   and (max-device-width : 480px) {
-     
-   }
-
-   /* iPhone 2G-4S in landscape */
-   @media only screen 
+   and (max-device-width : 480px)
    and (min-device-width : 320px) 
    and (max-device-width : 480px) 
-   and (orientation : landscape) {
-     
-   }
-
-   /* iPhone 2G-4S in portrait */
-   @media only screen 
+   and (orientation : landscape) 
    and (min-device-width : 320px) 
    and (max-device-width : 480px) 
-   and (orientation : portrait) {
-     
-   }
-
-   /* iPad in portrait & landscape */
-   @media only screen 
-   and (min-device-width : 768px) 
-   and (max-device-width : 1024px)  {
-     
-   }
-
-   /* iPad in landscape */
-   @media only screen 
+   and (orientation : portrait) 
    and (min-device-width : 768px) 
    and (max-device-width : 1024px) 
-   and (orientation : landscape) {
-     
-   }
-
-   /* iPad in portrait */
-   @media only screen 
-   and (min-device-width : 768px) 
-   and (max-device-width : 1024px) 
-   and (orientation : portrait) {
-     
-   }
-
-   /* Galaxy S3 portrait and landscape */
-   @media screen 
      and (device-width: 320px) 
      and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 2) {
-
-   }
-
-   /* Galaxy S3 portrait */
-   @media screen 
+     and (-webkit-device-pixel-ratio: 2)
      and (device-width: 320px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 2) 
-     and (orientation: portrait) {
-
-   }
-
-   /* Galaxy S3 landscape */
-   @media screen 
+     and (orientation: portrait)
      and (device-width: 320px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 2) 
-     and (orientation: landscape) {
-
-   }
-
-   /* Galaxy S4 portrait and landscape */
-   @media screen 
-     and (device-width: 320px) 
-     and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) {
-
-   }
-
-   /* Galaxy S4 portrait */
-   @media screen 
+     and (orientation: landscape) 
      and (device-width: 320px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait) {
-
-   }
-
-   /* Galaxy S4 landscape */
-   @media screen 
      and (device-width: 320px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) {
-
-   }
-
-   /* Galaxy S5 portrait and landscape */
-   @media screen 
+     and (orientation: portrait) 
+     and (device-width: 320px) 
+     and (device-height: 640px) 
+     and (-webkit-device-pixel-ratio: 3) 
+     and (orientation: landscape) 
      and (device-width: 360px) 
      and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) {
-
-   }
-
-   /* Galaxy S5 portrait */
-   @media screen 
+     and (-webkit-device-pixel-ratio: 3)
      and (device-width: 360px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait) {
-
-   }
-
-   /* Galaxy S5 landscape */
-   @media screen 
+     and (orientation: portrait) 
      and (device-width: 360px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) {
-
-   }
-
-   /* HTC One portrait and landscape */
-   @media screen 
+     and (orientation: landscape) 
      and (device-width: 360px) 
      and (device-height: 640px) 
-     and (-webkit-device-pixel-ratio: 3) {
-
-   }
-
-   /* HTC One portrait */
-   @media screen 
+     and (-webkit-device-pixel-ratio: 3)
      and (device-width: 360px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: portrait) {
-
-   }
-
-   /* HTC One landscape */
-   @media screen 
+     and (orientation: portrait)
      and (device-width: 360px) 
      and (device-height: 640px) 
      and (-webkit-device-pixel-ratio: 3) 
-     and (orientation: landscape) {
+     and (orientation: landscape) 
+      and (device-width:360px) and (device-height:640px)
+       and (orientation: portrait){
+
     section{
         background-image: url(./bg-pattern-top-desktop.svg);
         max-height: 100%;
