@@ -1,0 +1,238 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    background-color: white;
+    padding: 3rem 3rem;
+    }
+
+    section{
+        background-image: url(./bg-pattern-top-desktop.svg);
+        min-height: 100%;
+        background-repeat: no-repeat;
+    }
+      .container{
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        max-width: 80%;
+        margin: 0 auto 80px auto;
+        flex-basis: 50%;
+    }
+    .top-layer{
+        position: relative;
+        top: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        font-weight: 700;
+        color: hsl(300, 43%, 22%);
+        font-size: 50px;
+    }
+
+    p{
+        color: hsl(303, 10%, 53%);
+        line-height: 200%;
+    }
+
+.reviews{
+    margin-top: 3rem;
+    flex-basis: 40%;
+    margin-left:5rem;
+}
+
+    .rating{
+    background-color:  hsl(300, 24%, 96%);
+    padding: 20px;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    }
+  
+.img-star p{
+    display: inline;
+}
+
+.img-star{
+    margin-left: 30px;
+}
+
+    .ratings-1{
+        right: 90px;
+
+    }
+
+    .ratings-2{
+        right: 50px;
+    }
+
+    .ratings-3{
+        right: 0px;
+    }
+
+    .rating p{
+        font-weight: bold;
+        margin-left: 15px;
+        color:  hsl(300, 43%, 22%);
+    }
+    /* bottom layer */
+    .bottom-layer{
+        display: flex;
+        position: relative;
+        top: 0px;
+        bottom: 50px;
+   }
+
+   .card{
+    background-color:  hsl(300, 43%, 22%);
+    width: 350px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    position: relative;
+   }
+
+   .card_2{
+    top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+   }
+
+   .card_3{
+    top: 30px;
+   }
+
+   .card-info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 150%;
+   }
+
+   .card-info .info{
+    margin-left: 20px;
+    line-height: 150%;
+   }
+
+   .card-info .info h2{
+    color: white;
+    font-size: 15px;
+   }
+
+   .card-info .info p{
+    color: hsl(333, 80%, 67%);
+   }
+
+   .card q p{
+    color:  hsl(0, 0%, 100%);
+    display: inline;
+    font-size: 14px;
+   }
+
+   .card img{
+    border-radius: 50%;
+    width: 50px;
+   }
+
+   .card .card-content{
+    margin-bottom: 20px;
+   }
+
+   q{
+    color: white;
+   }
+
+
+   @media screen and (max-width:375px) {
+    section{
+        background-image: url(./bg-pattern-top-desktop.svg);
+        max-height: 100%;
+        background-repeat: no-repeat;
+        align-items: center;
+    }
+    
+   .img-star p{
+    /* display: inline; */
+    font-size: 10px;
+    }
+    
+    .top-layer{
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    
+}
+
+/* .heading{
+    align-text: center;
+} */
+.reviews{
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+    /* display: block; */
+    margin-bottom: 2rem;
+       
+}
+img{
+    width: 3%;
+}
+    .heading h1{
+        font-size: 30px;
+    }
+   
+    .heading p{
+        font-size: 10px;
+        padding: 10px 0;
+    }
+
+    .rating{
+        background-color:  hsl(300, 24%, 96%);
+        padding: 5px;
+        display: flex;
+        flex-basis: 90%;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        position: relative;
+        }
+      
+        /* .rating .img-star{
+            width: 100%;
+            margin-bottom: 10px;
+            align-items: center;
+        } */
+    .bottom-layer{
+        margin-top: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: block;
+    }
+    .ratings-1{
+        left: 0px;
+    }
+    .ratings-2{
+        left: 0px;
+    }
+    .ratings-3{
+        left: 0px;
+    }
+    .card_1{
+        width: 100%;
+        margin:0;
+
+        }
+    .card_2{
+        width: 100%;
+        margin:0;
+        }
+.card_3{
+    width: 100%;
+    margin: 0px;
+    }
+  }
